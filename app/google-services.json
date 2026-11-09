@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656008180365",
+    "project_id": "apiconnect-749db",
+    "storage_bucket": "apiconnect-749db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656008180365:android:9032c2da5f88a505ab68c4",
+        "android_client_info": {
+          "package_name": "com.example.apiconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArs8YVDXt5bzfjhOxewE7WoQ8NSbQQl9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "weatherapp"
+rootProject.name = "ApiConnect"
 include(":app")

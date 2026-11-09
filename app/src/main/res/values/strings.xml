@@ -1,18 +1,33 @@
 <resources>
-    <string name="app_name">weatherapp</string>
-    <string name="search_hint">Enter city name&#8230;</string>
-    <string name="search_button">Search</string>
-    <string name="gps_button">GPS</string>
-    <string name="forecast_header">5-Day Forecast</string>
-    <string name="status_weather_updated">Weather updated successfully</string>
-    <string name="status_loading_weather">Loading weather&#8230;</string>
-    <string name="temp_celsius">%1$d°C</string>
-    <string name="feels_like_celsius">Feels like %1$d°C</string>
-    <string name="humidity_format">Humidity\n%1$d%%</string>
-    <string name="wind_format">Wind\n%1$.1f m/s</string>
-    <string name="current_location">Your current location</string>
-    <string name="status_location_unavailable">Location permission unavailable. Weather not refreshed.</string>
-    <string name="status_refresh_failed">Refresh failed: %1$s</string>
-    <string name="status_last_updated">Last updated: %1$s</string>
-    <string name="check_connection">Check your connection.</string>
+    <string name="app_name">ApiConnect</string>
+    <string name="api_connecting">Connecting to API&#8230;</string>
+    <string name="api_request_failed">API request failed.\n\n%1$s</string>
+    <string name="api_success_output">API CONNECTION SUCCESSFUL!\n\nUser ID: %1$d\nPost ID: %2$d\n\nTitle:\n%3$s\n\nContent:\n%4$s</string>
+    <string name="internet_api_demo">Internet API Demo</string>
+    <string name="fetch_api_data">Fetch API Data</string>
+    <string name="tap_button_to_load">Tap the button to load online data.</string>
+    <string name="hint_enter_post_id">Enter Post ID (1&#8211;100)</string>
+    <string name="api_connect_title">API CONNECT</string>
+    <string name="cd_api_internet_icon">API and Internet icon</string>
+
+    <string name="error_enter_title_and_body">Please enter both title and body.</string>
+    <string name="request_in_progress">%1$s request in progress&#8230;</string>
+    <string name="request_failed">%1$s failed: %2$s</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="get_success_output">GET SUCCESS\n\nUser ID: %1$d\nPost ID: %2$d\n\nTitle:\n%3$s\n\nBody:\n%4$s</string>
+    <string name="post_success_output">POST SUCCESS\n\nServer returned:\nID: %1$d\nUser ID: %2$d\n\nTitle: %3$s\nBody: %4$s\n\nNote: This is a simulated post.</string>
+
+    <string name="firebase_title">Firebase GET and POST</string>
+    <string name="hint_enter_name">Enter Name</string>
+    <string name="hint_enter_email">Enter Email</string>
+    <string name="btn_post_save_data">POST - Save Data</string>
+    <string name="btn_get_retrieve_data">GET - Retrieve Data</string>
+    <string name="retrieved_data_placeholder">Retrieved data will appear here</string>
+
+    <string name="msg_enter_name_email">Please enter name and email</string>
+    <string name="msg_unable_create_id">Unable to create ID</string>
+    <string name="msg_data_saved">Data saved successfully!</string>
+    <string name="msg_error_format">Error: %1$s</string>
+    <string name="msg_no_data_found">No data found.</string>
+    <string name="msg_get_error_format">GET Error: %1$s</string>
 </resources>
